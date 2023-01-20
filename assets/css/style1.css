@@ -1,0 +1,140 @@
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+
+body {
+    background: -webkit-linear-gradient(left, #07c582, #78d8b7);
+    background-size: cover;
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-left:-65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color :#fff;
+}
+
+.navbar-btn {
+    color: var(--box-shadow)
+}
+.navbar-btn:hover {
+   color: white;
+}
+
+.register{
+    
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: var(--green);
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: var(--green);
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 1%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: var(--light-color);
+}
+.register .nav-tabs .nav-link.active{
+    width: 120px;
+    color: var(--green);
+    border: 2px solid --light-color;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+#inputbtn:hover{cursor:pointer;}
+.card{
+background: #f8f9fa;
+border-top-left-radius: 5% 5%;
+border-bottom-left-radius: 5% 5%;
+border-top-right-radius: 5% 5%;
+border-bottom-right-radius: 5% 5%;
+}
+
+.container-fluid {
+    margin-top:60px;
+    margin-bottom:60px;
+    color:var(--light-color);
+}
+
+.btn-primary{
+    background-color: var(--green);
+}
+
+.btn-primary:hover {
+    background-color: var(--green);
+}
+
